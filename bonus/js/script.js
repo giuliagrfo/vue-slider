@@ -51,7 +51,10 @@ createApp ({
             } else {
                 this.activeImage ++
             }
+        },
+        changeImg(i){
+            // console.log(i);
+            this.activeImage = i
         }
-        
     }
 }).mount('#app')
